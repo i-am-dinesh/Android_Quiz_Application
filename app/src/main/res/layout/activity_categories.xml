@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Categories">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Welcome"
+            android:fontFamily="monospace"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+
+            android:text="User Name"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    // Selection of categories
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Select Any One Category..."
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    cat 1
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="1."-->
+<!--            android:paddingRight="15dp"-->
+<!--            android:textSize="40dp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/cat1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:fontFamily="monospace"
+            android:background="@drawable/custom_button1"
+            android:text="Computer Science Quiz"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    // cat 2
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="2."-->
+<!--            android:paddingRight="15dp"-->
+<!--            android:textSize="40dp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/cat2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button1"
+            android:text="Science Quiz"
+            android:fontFamily="monospace"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    // cat 3
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:paddingRight="15dp"-->
+
+<!--            android:text="3."-->
+<!--            android:textSize="40dp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/cat3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:fontFamily="monospace"
+            android:background="@drawable/custom_button1"
+            android:text="G.K. Quiz"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    // cat 4
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="4."-->
+<!--            android:paddingRight="15dp"-->
+<!--            android:textSize="40dp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/cat4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:fontFamily="monospace"
+            android:background="@drawable/custom_button1"
+            android:text="Math Quiz"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

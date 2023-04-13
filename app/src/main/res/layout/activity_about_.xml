@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".About_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:fontFamily="monospace"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hii, I am Dinesh Sakpal."
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is simple Quizzes Android Application. The QUIZZES Application have 4 categories. User Can Gives the Quiz Accordingly."
+            android:textStyle="normal"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/biryani_semibold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note : This Application Required INTERNET. Becouse All the MCQ'S Questions And Options Are Fatches from Google Firebase."
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/biryani_semibold"
+            android:textAllCaps="false">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Me:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TG Channel link : https://t.me/i_am_din3sh"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="monospace">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanks You"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif-monospace"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/home2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@android:dimen/app_icon_size"
+            android:background="#C84C88"
+            android:fontFamily="@font/roboto_light"
+            android:text="Home"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
